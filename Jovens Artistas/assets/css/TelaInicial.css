@@ -1,0 +1,130 @@
+/*Todas imagens do carousel*/
+:root {
+    --image-carousel0_light: url(/assets/imagens/axlrose.jpg?v=1.0);
+    --image-carousel1_light: url(/assets/imagens/meipang.jpg?v=1.0);
+    --image-carousel2_light: url(/assets/imagens/akira.jpg?v=1.0);
+    --image-carousel3_light: url(/assets/imagens/kurtcobain.jpg?v=1.0);
+    --image-carousel0_dark: url(/assets/imagens/axlrose_dark.jpg?v=1.0);
+    --image-carousel1_dark: url(/assets/imagens/meipang_dark.jpg?v=1.0);
+    --image-carousel2_dark: url(/assets/imagens/akira_dark.jpg?v=1.0);
+    --image-carousel3_dark: url(/assets/imagens/kurtcobain_dark.jpg?v=1.0);
+}
+
+/* Estilos para o carousel modo claro */
+#carousel0 {
+    background-image: var(--image-carousel0_light);
+}
+#carousel1 {
+    background-image: var(--image-carousel1_light);
+}
+#carousel2 {
+    background-image: var(--image-carousel2_light);
+}
+#carousel3 {
+    background-image: var(--image-carousel3_light);
+}
+
+/* Estilo para as legendas titulo no Modo claro */
+.carousel-caption a {
+    color: rgb(249, 249, 249);
+    background-color: rgb(44, 44, 44);
+    padding: 4px; 
+    width: 70%; 
+    margin: 0 auto; 
+    border-radius: 15px;
+}
+
+/* Estilo para as legendas titulo hover*/
+.carousel-caption a:hover {
+    color: rgb(126, 117, 128);
+}
+
+/*Estilo para as legendas em modo claro*/
+.carousel-caption p{
+    color: #ffffff;
+    background-color: rgb(44, 44, 44);
+    padding: 5px; 
+    width: 30%; 
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+/*DARKMODE*/
+/* Estilos para o carousel modo escuro */
+.dark-mode #carousel0 {
+    background-image: var(--image-carousel0_dark);
+}
+.dark-mode #carousel1 {
+    background-image: var(--image-carousel1_dark);
+}
+.dark-mode #carousel2 {
+    background-image: var(--image-carousel2_dark);
+}
+.dark-mode #carousel3 {
+    background-image: var(--image-carousel3_dark);
+}
+
+/*Estilo para as legendas no modo escuro*/
+.dark-mode .carousel-caption p{
+    background-color: rgb(237, 237, 237);
+    color: #000000;
+}
+
+/*body no modo escuro*/
+body.dark-mode {
+    background-color: #000000;
+    color: #f3f2f2;
+}
+
+/*barra de navegação em modo escuro*/
+.dark-mode .navbar {
+    background-color: #333 !important;
+}
+
+/*legendas da barra de navegação em modo escuro*/
+.dark-mode .nav-link{
+    color: #fff;
+}
+
+/*Dropdown em modo escuro*/
+.dark-mode .dropdown-menu{
+    background-color:#676363;
+}
+
+/*legendas do dropdown em modo escuro*/
+.dark-mode .dropdown-menu .dropdown-item{
+    color: #fff;
+}
+
+/*dropdown em modo escuro hover*/
+.dark-mode .dropdown-menu .dropdown-item:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo para as legendas em modo escuro */
+.dark-mode .carousel-caption a {
+    background-color: rgb(213, 213, 213);
+    color: #000000;
+}
+
+/* Estilo para as legendas em modo escuro hover */
+.dark-mode .carousel-caption a:hover {
+    color: #676363;
+}
+
+/* Estilos para o botão modo claro*/
+#toggleModeBtn {
+    border-radius: 50%; 
+    padding: 10px; 
+    background-color: #c9c8c8; 
+    color: #000; 
+    border: none; 
+   
+}
+
+/* Estilos para o botão no modo escuro */
+.dark-mode #toggleModeBtn {
+    background-color: #000; 
+    color: #fff;
+}

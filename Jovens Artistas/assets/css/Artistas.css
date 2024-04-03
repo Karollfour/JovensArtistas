@@ -1,0 +1,61 @@
+/*CARDS*/
+h5{
+    margin: 0;
+}
+p{
+    text-align: justify;
+}
+
+
+/*DARKMODES*/
+/*darkmode do card*/
+.dark-mode .card{ 
+    background-color: #242323;
+    color: #f3f2f2;
+}
+
+/*darkmode do body*/
+body.dark-mode {
+    background-color: #000000;
+    color: #f3f2f2;
+}
+
+/*darkmode da barra de navegação*/
+.dark-mode .navbar {
+    background-color: #333 !important;
+}
+
+/*legendas da barra de navegação em modo escuro*/
+.dark-mode .nav-link{
+    color: #fff;
+}
+
+/*Dropdown em modo escuro*/
+.dark-mode .dropdown-menu{
+    background-color:#676363;
+}
+
+/*legendas do dropdown em modo escuro*/
+.dark-mode .dropdown-menu .dropdown-item{
+    color: #fff;
+}
+
+/*dropdown em modo escuro hover*/
+.dark-mode .dropdown-menu .dropdown-item:hover{
+    color: rgb(0, 0, 0);
+}
+
+/*estilos do botão Light*/
+#toggleModeBtn {
+    border-radius: 50%; 
+    padding: 10px;
+    background-color: #c9c8c8;
+    color: #000;
+    border: none; 
+}
+
+/*estilos do botão Dark*/
+.dark-mode #toggleModeBtn {
+    background-color: #000; 
+    color: #fff; 
+}
